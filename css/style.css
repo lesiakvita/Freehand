@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.header,
+.main,
+.footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  margin-top: 22px;
+}
+.header::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #efeef3;
+  margin-top: 23px;
+}
+
+.main {
+  margin-top: 123px;
+}
+
+.subtitle {
+  margin-bottom: 15px;
+  color: #7690a8;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.title {
+  width: 377px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.caption {
+  width: 108px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.section {
+  display: inline-block;
+  width: 370px;
+  height: 340px;
+  border: 1px solid #e5eaf4;
+  border-radius: 8px;
+}
+.section:hover {
+  border-color: #3db370;
+}
+.img {
+  margin-left: 40px;
+  margin-top: 54px;
+  width: 40px;
+  height: 36px;
+}
+section:hover .img1 img {
+  content: url(../img/megaphone-green.svg);
+}
+section:hover .img2 img {
+  content: url(../img/building-green.svg);
+}
+section:hover .img3 img {
+  content: url(../img/phone-green.svg);
+}
+.desc {
+  width: 275px;
+  margin-left: 40px;
+  margin-top: 15px;
+  line-height: 28px;
+  font-size: 16px;
+}
+.excerpt {
+  margin-left: 40px;
+  color: #3db370;
+  width: 600px;
+  margin-top: 30px;
+  width: 90px;
+  text-decoration: none;
+}
+.section_marg {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.img {
+  margin-left: 40px;
+  margin-top: 54px;
+}
+.footer {
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #16133d;
+}
+.logo_footer {
+  padding-top: 40px;
+  padding-left: 135px;
+}
+.social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 40px;
+  list-style: none;
+  background: #16133d;
+  padding-left: 135px;
+  margin: 0;
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  width: 38px;
+  background: #efeef3;
+  border-radius: 5px;
+}
+.social__img {
+  margin: 0 auto;
+}
+.social__link:hover .social__img {
+  fill: #3db370;
+}
